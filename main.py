@@ -45,4 +45,4 @@ def main(page:Page):
 
 
 
-app(main)
+app(target=main, assets_dir="assets")
